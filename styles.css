@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #d1b57a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    background-color: #444e60;
+    color: white;
+    font-size: 24px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+}
