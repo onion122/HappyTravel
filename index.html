@@ -22,5 +22,29 @@
     <section class="hero">
         <h1>Happy Travel</h1>
     </section>
+
+    <section class="form-container">
+        <h2>Crear destino</h2>
+        <form>
+            <label for="titulo">Título*</label>
+            <input type="text" id="titulo" name="titulo" placeholder="Escriba sus credenciales...">
+
+            <label for="ubicacion">Ubicación*</label>
+            <input type="text" id="ubicacion" name="ubicacion" placeholder="Escriba sus credenciales...">
+
+            <label for="imagen">Imagen*</label>
+            <input type="file" id="imagen" name="imagen">
+
+            <label for="motivo">¿Por qué quieres viajar allí?</label>
+            <textarea id="motivo" name="motivo" placeholder="Escriba aquí su texto, no debe pasar los 500 caracteres..."></textarea>
+
+            <div class="form-buttons">
+                <button type="submit" class="accept">Aceptar</button>
+                <button type="reset" class="cancel">Cancelar</button>
+            </div>
+
+            <div class="form-note">Los campos marcados con * son obligatorios</div>
+        </form>
+    </section>
 </body>
 </html>
