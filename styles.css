@@ -26,3 +26,34 @@ nav a {
     color: #222;
     font-size: 18px;
 }
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url('https://img.icons8.com/ios-filled/50/user-male-circle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    background-color: #a1bff1;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    background-color: #4d5a74;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 48px;
+}
