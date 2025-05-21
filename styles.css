@@ -46,42 +46,21 @@ nav a {
 .hero {
     background-color: #a1bff1;
     text-align: center;
-.form-note {
-    color: red;
-    font-size: 12px;
-    margin-top: 10px;
+    padding: 50px 20px;
 }
 
-.destino {
-    display: flex;
-    align-items: center;
-    margin: 40px;
-    gap: 20px;
-}
-
-.destino img {
-    width: 350px;
-    height: auto;
-    border-radius: 20px;
-}
-
-.destino h3 {
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-.destino p {
-    font-size: 14px;
-    max-width: 400px;
-}
-
-footer {
-    background-color: #403321;
+.hero h1 {
+    background-color: #4d5a74;
     color: white;
-    text-align: center;
-    padding: 15px 0;
-    font-size: 14px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 48px;
 }
+
+.form-container {
+    border: 2px solid #b5cef2;
+    border-radius: 20px;
     padding: 20px;
     margin: 40px auto;
     width: 80%;
